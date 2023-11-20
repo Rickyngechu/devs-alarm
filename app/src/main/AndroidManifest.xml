@@ -27,6 +27,7 @@
         <activity android:name=".SignupActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".ImageActivity" />
         <activity android:name=".NotificationActivity" />
 
         <!-- Define your receiver -->

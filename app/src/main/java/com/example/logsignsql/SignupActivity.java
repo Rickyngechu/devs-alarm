@@ -12,7 +12,7 @@ import com.example.logsignsql.databinding.ActivitySignupBinding;
 public class SignupActivity extends AppCompatActivity {
 
     ActivitySignupBinding binding;
-    com.example.logsignsqlpractice.DatabaseHelper databaseHelper;
+    DatabaseHelper databaseHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class SignupActivity extends AppCompatActivity {
         binding = ActivitySignupBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        databaseHelper = new com.example.logsignsqlpractice.DatabaseHelper(this);
+        databaseHelper = new DatabaseHelper(this);
 
         binding.signupButton.setOnClickListener(new View.OnClickListener() {
             @Override

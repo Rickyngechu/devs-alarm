@@ -1,4 +1,4 @@
-package com.example.logsignsqlpractice;
+package com.example.logsignsql;
 
 import android.content.ContentValues;
 import android.content.Context;
